@@ -1,0 +1,36 @@
+.imagem-carrossel-um, .imagem-carrossel-dois{
+	/*fala como o elemento se comporta com relação ao container dele:
+	object-fit*/
+	object-fit: cover;
+	/*consegue movimentar a imagem no eixo x e y
+	object-position*/
+	object-position: 0 80%;
+	height: 400px;
+}
+
+.fonte-titulo{
+	font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+	color: darkred!important;
+}
+
+.botao-cor-especial{
+	background-color: darkred;
+	color: white;
+}
+
+.borda-cor-especial{
+	border-color: darkred;
+}
+
+.largura-card{
+	max-width: 18rem;
+}
+
+.card-posicao-imagem{
+	object-fit: cover;
+	/*object-position: 0 80%;*/
+	height: 200px;
+}
